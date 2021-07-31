@@ -4,6 +4,11 @@ const { User, Product, Category } = require('../models');
 db.once('open', async () => {
   await Category.deleteMany();
 
+
+
+
+
+
   const categories = await Category.insertMany([
     { name: 'Food' },
     { name: 'Household Supplies' },
@@ -143,10 +148,10 @@ db.once('open', async () => {
   });
 
   await User.create({
-    firstName: 'Elijah',
-    lastName: 'Holt',
-    email: 'eholt@testmail.com',
-    password: 'password12345'
+    firstName: 'Ina ',
+    lastName: 'Wise',
+    email: 'blissful.simplicity16@gmail.com',
+    password: 'Yahuah#1'
   });
 
   console.log('users seeded');
