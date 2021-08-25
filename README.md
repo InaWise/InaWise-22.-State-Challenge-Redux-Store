@@ -36,7 +36,7 @@ In order to test open the console and run the following:
 ```npm run seeds```
 
 ## Questions
-If you have questions contact me at iwise@mail.valenciacollege.edu
+If you have any questions about the repo, open an issue or contact me directly at iwise@mail.valenciacollege.edu. You can find more of my work at InaWise.
 
 
 [repo link](https://github.com/InaWise/InaWise-22.-State-Challenge-Redux-Store)
